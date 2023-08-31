@@ -1,0 +1,30 @@
+.FileEditor{
+    @apply grid w-full h-full grid-cols-1 grid-rows-10 gap-2;
+    @apply overflow-hidden;
+}
+
+
+.fileTabContainer{
+    @apply w-[120px] h-[30px] border border border-black rounded-xl m-[4px] flex-shrink-0 grid grid-cols-91;
+}
+
+.FileShowcase{
+    @apply border border-4 rounded-2xl border-black;
+    @apply overflow-auto;
+    background: white;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.fileItemContainer1,.fileItemContainer2{
+    @apply flex items-center justify-center h-full;
+}
+
+.fileItemContainer1:hover{
+    @apply bg-slate-400 rounded-l-xl;
+    color: white;
+}
+.fileItemContainer2:hover{
+    @apply bg-slate-300 rounded-r-xl;
+    color: white;
+}

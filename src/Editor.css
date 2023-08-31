@@ -1,0 +1,10 @@
+.editor {
+    @apply grid w-full h-full grid-cols-560 grid-rows-18 gap-1;
+}
+
+.Panels{
+    @apply border border-4 rounded-lg border-black;
+    @plly overflow-hidden;
+    background: white;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.9),rgba(255,255,255,0.1));
+}
